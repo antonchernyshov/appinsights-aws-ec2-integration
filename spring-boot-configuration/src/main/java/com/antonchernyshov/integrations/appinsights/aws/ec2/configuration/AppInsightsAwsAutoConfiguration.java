@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @Conditional(InstrumentationKeyCondition.class)
-@ConfigurationProperties(prefix = "com.antonchernyshov.azure.appinsights.ec2")
+@ConfigurationProperties(prefix = "com.antonchernyshov.integrations.appinsights.aws.ec2")
 public class AppInsightsAwsAutoConfiguration {
 
     String propertyName;

@@ -16,3 +16,14 @@ dependencies {
     
 }
 ```
+
+This will add need configuration, which Spring Boot will use without additional actions.
+
+### Customization
+
+You can customize the name of the property to be used for EC2 Instance ID:
+
+``` properties
+#Customizing EC2 instance id property name
+com.antonchernyshov.integrations.appinsights.aws.ec2.property-name=EC2-INSTANCE-ID
+```
