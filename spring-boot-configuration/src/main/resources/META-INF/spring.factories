@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.antonchernyshov.integrations.appinsights.aws.ec2.configuration.AppInsightsAwsAutoConfiguration
+

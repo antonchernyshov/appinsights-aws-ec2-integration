@@ -1,0 +1,4 @@
+rootProject.name = 'com.antonchernyshov.azure.appinsights.ec2'
+
+include 'spring-boot-configuration'
+include 'sample-app'
