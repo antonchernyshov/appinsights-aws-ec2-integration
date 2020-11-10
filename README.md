@@ -6,9 +6,9 @@ You're not alone!
 This project helps to add AWS EC2 instance id to each telemetry record, that is sent to AppInsights.
 
 
-##How to use:
+## How to use:
 
-###Gradle 
+### Gradle 
 ```
 dependencies {
 
