@@ -12,7 +12,7 @@ This project helps to add AWS EC2 instance id to each telemetry record, that is 
 ```
 dependencies {
 
-    implementation 'com.antonchernyshov.integrations.appinsights.aws.ec2:spring-boot-configuration:0.0.1'    
+    implementation 'com.antonchernyshov.integrations.appinsights.aws.ec2:spring-boot-configuration:0.1'    
     
 }
 ```
