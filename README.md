@@ -17,7 +17,7 @@ dependencies {
 }
 ```
 
-This will add need configuration, which Spring Boot will use without additional actions.
+This will add needed configuration, which Spring Boot will use without additional actions.
 
 ### Customization
 

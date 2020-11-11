@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Registers AWS EC2 Instance aware telemetry initializer, which adds EC2 Instance Id to each telemetry entry
+ *
+ * @author Anton Chernyshov
  */
 @Configuration
 @Conditional(InstrumentationKeyCondition.class)

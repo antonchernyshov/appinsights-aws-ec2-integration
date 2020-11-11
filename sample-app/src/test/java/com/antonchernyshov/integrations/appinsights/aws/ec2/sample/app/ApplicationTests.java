@@ -8,6 +8,9 @@ import org.springframework.context.ApplicationContext;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
+/**
+ * @author Anton Chernyshov
+ */
 @SpringBootTest
 class ApplicationTests {
 

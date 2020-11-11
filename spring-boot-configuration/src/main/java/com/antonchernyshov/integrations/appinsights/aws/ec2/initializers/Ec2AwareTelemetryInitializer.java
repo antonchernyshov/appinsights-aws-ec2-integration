@@ -6,6 +6,8 @@ import com.microsoft.applicationinsights.telemetry.Telemetry;
 
 /**
  * Adds EC2 Instance ID to telemetry context
+ *
+ * @author Anton Chernyshov
  */
 public class Ec2AwareTelemetryInitializer implements TelemetryInitializer {
 

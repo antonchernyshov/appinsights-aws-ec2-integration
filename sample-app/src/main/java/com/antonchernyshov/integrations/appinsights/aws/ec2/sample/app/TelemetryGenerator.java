@@ -9,6 +9,11 @@ import org.springframework.stereotype.Service;
 import java.util.Collections;
 import java.util.UUID;
 
+/**
+ * Telemetry generator. Generates telemetry and sends it to Azure AppInsights
+ *
+ * @author Anton Chernyshov
+ */
 @Service
 public class TelemetryGenerator {
 
