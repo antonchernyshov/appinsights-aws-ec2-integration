@@ -9,7 +9,9 @@ sourceCompatibility = '8'
 
 dependencies {
 
-    implementation project(':spring-boot-configuration')
+//    implementation project(':spring-boot-configuration')
+
+    implementation 'com.antonchernyshov.integrations.appinsights.aws.ec2:spring-boot-configuration:0.1'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.microsoft.azure:applicationinsights-spring-boot-starter:1.1.1'
